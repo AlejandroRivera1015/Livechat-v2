@@ -9,6 +9,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 import java.util.List;
 
@@ -20,6 +21,7 @@ import com.app.livechat.Entity.Conversations.Conversation;
 @AllArgsConstructor
 @Getter
 @Setter
+@ToString
 public class User {
 
     @Id
